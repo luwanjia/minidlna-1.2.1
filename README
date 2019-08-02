@@ -34,3 +34,13 @@ Prerequisites
 
 
 Justin Maggard
+
+Build
+===================
+$ sudo apt install build-essential libexif-dev libjpeg-dev libid3tag0-dev libvorbis-dev libsqlite3-dev libavformat-dev autoconf automake libflac-dev autopoint gettext
+$ ./configure
+$ make
+
+Install
+===================
+Refer: https://www.certdepot.net/rhel7-install-minidlna-service/
