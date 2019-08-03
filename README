@@ -35,11 +35,23 @@ Prerequisites
 
 Justin Maggard
 
-Build
+Build for debian
 ===================
 $ sudo apt install build-essential libexif-dev libjpeg-dev libid3tag0-dev libvorbis-dev libsqlite3-dev libavformat-dev autoconf automake libflac-dev autopoint gettext
 $ ./configure
 $ make
+
+Build for CentOS
+===================
+yum install ffmpeg ffmpeg-devel -y
+yum install libjpeg-devel
+yum install sqlite-devel
+yum install exif-devel
+yum install libexif-devel
+yum install libid3tag-devel
+yum install libogg-devel
+yum install libvorbis-devel
+yum install flac-devel
 
 Install
 ===================
